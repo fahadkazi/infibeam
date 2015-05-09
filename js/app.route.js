@@ -6,6 +6,13 @@
             .when('/', {
                 templateUrl : 'homeView.html',
                 controller  : 'HomeController'
-            })
+            }).
+            when('/:id', {
+        templateUrl: 'images-grid.html',
+        controller: 'imagesDetail'
+      }).
+      otherwise({
+        redirectTo: '/phones'
+      });
     });
 })();

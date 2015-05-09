@@ -3,8 +3,8 @@
 
 	app.controller("sidebarController",function($scope,$http,$filter){
 
-		$http.get('/phones.json').success(function (data) {
-		  	$scope.phones = data;
+		$http.get('data.json').success(function (data) {
+		  	$scope.tableData = data;
 		})		
 		
 	});

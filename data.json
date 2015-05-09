@@ -1,0 +1,92 @@
+[
+    {
+        "id": 0,
+        "name": "Nature",
+        "images": [
+            {
+                "id": 0,
+                "src": "images/nature/01.jpg",
+                "thumb": "images/nature/01-thumb.jpg",
+                "name": "Garden View"
+            },
+            {
+                "id": 1,
+                "src": "images/nature/02.jpg",
+                "thumb": "images/nature/02-thumb.jpg",
+                "name": "River View"
+            },
+            {
+                "id": 2,
+                "src": "images/nature/03.jpg",
+                "thumb": "images/nature/03-thumb.jpg",
+                "name": "Cave View"
+            },
+            {
+                "id": 3,
+                "src": "images/nature/04.jpg",
+                "thumb": "images/nature/04-thumb.jpg",
+                "name": "Lake View"
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "name": "Lanscape",
+        "images": [
+            {
+                "id": 0,
+                "src": "images/landscape/01.jpg",
+                "thumb": "images/landscape/01-thumb.jpg",
+                "name": "Ipsum View"
+            },
+            {
+                "id": 1,
+                "src": "images/landscape/02.jpg",
+                "thumb": "images/landscape/02-thumb.jpg",
+                "name": "Ipsum View"
+            },
+            {
+                "id": 2,
+                "src": "images/landscape/03.jpg",
+                "thumb": "images/landscape/03-thumb.jpg",
+                "name": "Ipsum View"
+            },
+            {
+                "id": 3,
+                "src": "images/landscape/04.jpg",
+                "thumb": "images/landscape/04-thumb.jpg",
+                "name": "Ipsum View"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Movies",
+        "images": [
+            {
+                "id": 0,
+                "src": "images/movies/01.jpg",
+                "thumb": "images/movies/01-thumb.jpg",
+                "name": "Ipsum View"
+            },
+            {
+                "id": 1,
+                "src": "images/movies/02.jpg",
+                "thumb": "images/movies/02-thumb.jpg",
+                "name": "Ipsum View"
+            },
+            {
+                "id": 2,
+                "src": "images/movies/03.jpg",
+                "thumb": "images/movies/03-thumb.jpg",
+                "name": "Ipsum View"
+            },
+            {
+                "id": 3,
+                "src": "images/movies/04.jpg",
+                "thumb": "images/movies/04-thumb.jpg",
+                "name": "Ipsum View"
+            }
+        ]
+    }
+]
