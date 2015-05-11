@@ -1,27 +1,21 @@
 (function(){
 	var app=angular.module("homepage",[]);
 
-	app.controller("HomeController",function($scope,$http,$filter){
+	app.controller("HomeCtrl",function($scope, mainInfo){
 
-		$http.get('data.json').success(function (data) {
+		mainInfo.success(function (data) {
 		  	$scope.tableData = data;
-		  	console.log($scope.tableData);
 		})		
 		
 	});
 
-	app.controller('imagesDetail', function($scope, $routeParams, $http) {
+	app.controller('gridCtrl', function($scope, $routeParams, mainInfo) {
 
 		$scope.id = $routeParams.id;
 
-		$http.get('data.json').success(function (data) {
+		mainInfo.success(function (data) {
 			
-			angular.forEach(data, function (temp) {
-				
-				console.log($scope.id);
-				$scope.images = temp.images;
-				console.log(temp);
-			})
+			$scope.mainData = data[$scope.id].images;
 		})
 
 	});

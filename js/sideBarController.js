@@ -1,9 +1,9 @@
 (function(){
 	var app=angular.module("sidebar",[]);
 
-	app.controller("sidebarController",function($scope,$http,$filter){
+	app.controller("sidebarController",function($scope, mainInfo){
 
-		$http.get('data.json').success(function (data) {
+		mainInfo.success(function (data) {
 		  	$scope.tableData = data;
 		})		
 		
