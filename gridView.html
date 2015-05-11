@@ -4,7 +4,7 @@
       <input ng-model="query" class="form-control" placeholder="Search">
     </div>
         <div class="col-lg-3" ng-repeat="data in mainData | filter:query">
-          <a href="#/{{data.id}}" class="thumb"><img ng-src="{{data.thumb}}"></a>
+          <a href="#/detail/{{data.id}}" class="thumb"><img ng-src="{{data.thumb}}"></a>
           <h3><a href="#/{{data.id}}">{{data.name}}</a></h3>
         </div>
   </div>

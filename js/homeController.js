@@ -20,4 +20,12 @@
 
 	});
 
+	app.controller('detailCtrl', function($scope, $routeParams, mainInfo) {
+		$scope.id = $routeParams.id;
+		mainInfo.success(function (data) {
+			$scope.mainData = data[$scope.id].images[$scope.id];
+			console.log($scope.mainData);
+		})
+	})
+
 })();

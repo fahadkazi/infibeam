@@ -11,6 +11,10 @@
             templateUrl: 'gridView.html',
             controller: 'gridCtrl'
         })
+        .when('/detail/:id', {
+            templateUrl: 'detailView.html',
+            controller: 'detailCtrl'
+        })
         .otherwise({
             redirectTo: '/'
         });
